@@ -255,6 +255,68 @@ body {
     color: #fff;
   }
 
+
+  #section-api {
+    background-color: rgb(8, 8, 54);
+    height: 40rem;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    border: 1px solid white;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+
+  .container-api {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(30, 30, 82);
+    box-shadow: 0 20px 65px #570b1080;
+    /* border: 1px solid white; */
+     margin: 0 auto;
+     content: "";
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .container-api p {
+    color: white;
+    line-height: 2;
+    font-size: 20px;
+    margin: 4rem 5rem;
+    padding-top: 7rem;
+    font-family: cursive;
+  }
+
+  .container-api h3 {
+    color: #00abf0;
+     font-weight: 800;
+     text-transform: capitalize;
+     margin-bottom: 1rem;
+     
+  }
+
+  .container-api #btn-api {
+    background-color: rgb(160, 143, 143);
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5f080ee3;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+
+  .container-api #btn-api:hover{
+    background-color: #0278c2;
+    color: #ededed;
+  }
+
+
+
+
+
   @media (min-width: 768px) {
     #nav-menu-btn {
         display: block;
